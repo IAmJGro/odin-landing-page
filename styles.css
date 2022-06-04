@@ -88,7 +88,7 @@ h2 {
 
 .card {
     width: 150px;
-    margin: 0 20px 30px;
+    margin: 0 20px;
     text-align: center;
 }
 
@@ -101,19 +101,20 @@ h2 {
 
 .card-container {
     display: flex;
-    padding: 0 40px;
+    padding: 0 40px 100px;
     justify-content: center;
 }
 
 .quote-container {
     background: #E5E7EB;
+    padding: 20px 0;
 }
 
 .quote {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    padding: 50px 100px 0;
+    padding: 50px 40px 0;
     margin-bottom: 0;
 }
 
