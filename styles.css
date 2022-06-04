@@ -122,10 +122,15 @@ h2 {
     margin-top: 0.5em;
 }
 
+.footer-container {
+    padding: 32px;
+}
+
 .footer {
     color: #F9FAF8
 }
 
 .footer p {
     margin: 0;
+    text-align: center;
 }
