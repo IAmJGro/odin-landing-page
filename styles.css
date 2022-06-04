@@ -1,13 +1,17 @@
-html{
+html {
     font-family: Roboto, sans-serif;
 }
 
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
-.header, .hero-section, .information-section, .quote-section, 
-.action-section, .footer  {
+.header,
+.hero-section,
+.information-section,
+.quote-section,
+.action-section,
+.footer {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -19,7 +23,8 @@ body{
     align-items: center;
 }
 
-.hero-container, .footer-container{
+.hero-container,
+.footer-container {
     background-color: #1F2937;
 }
 
@@ -36,7 +41,8 @@ body{
     gap: 1em;
 }
 
-.link, .hero-secondary{
+.link,
+.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -47,7 +53,7 @@ body{
     gap: 75px;
 }
 
-.hero-section div{
+.hero-section div {
     flex: 1;
 }
 
@@ -60,8 +66,8 @@ body{
 }
 
 h1 {
-    margin:0;
-    font-size: 48px; 
+    margin: 0;
+    font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
@@ -96,7 +102,7 @@ h2 {
     padding: 0 40px;
 }
 
-.quote-container{
+.quote-container {
     background: #E5E7EB;
 }
 
@@ -105,11 +111,15 @@ h2 {
     font-weight: lighter;
     font-style: italic;
     padding: 50px 100px 0;
+    margin-bottom: 0;
 }
 
 .quote-author {
-    padding: 0 100px 50px;
+    padding: 0 150px 50px;
     text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0.5em;
 }
 
 .footer {
