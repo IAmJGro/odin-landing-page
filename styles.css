@@ -56,11 +56,11 @@ html, body {
 .hero-section {
     display: flex;
     padding: 75px 0 125px;
-    gap: 50px;
+    gap: 80px;
 }
 
 .hero-section div {
-    flex: 1;
+    flex: 1 1 0;
 }
 
 .hero-secondary{
