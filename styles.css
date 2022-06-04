@@ -12,7 +12,7 @@ body {
 .quote-section,
 .action-section,
 .footer {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -45,17 +45,20 @@ body {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 8px 0;
 }
 
 .hero-section {
     display: flex;
-    padding: 50px 0 100px;
+    padding: 75px 0 125px;
     gap: 50px;
 }
 
 .hero-section div {
     flex: 1;
+}
+
+.hero-secondary{
+    margin: 8px 0;
 }
 
 .hero-image-box {
@@ -104,7 +107,7 @@ h2 {
 
 .card-container {
     display: flex;
-    padding: 0 40px 100px;
+    padding: 0 90px 100px;
     justify-content: space-around;
     gap: 20px;
 }
@@ -118,7 +121,7 @@ h2 {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    padding: 50px 40px 0;
+    padding: 50px 90px 0;
     margin-bottom: 0;
 }
 
@@ -131,7 +134,7 @@ h2 {
 }
 
 .action-container {
-    padding: 75px;
+    padding: 75px 0;
 }
 
 .action-section {
@@ -149,6 +152,10 @@ h2 {
 
 .action-text h3, .action-text p{
     margin: 0;
+}
+
+.action-text h3{
+    font-size: 20px;
 }
 
 .action-button {
