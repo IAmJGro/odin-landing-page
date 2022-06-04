@@ -83,12 +83,14 @@ button {
 
 h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
     padding: 10px 0;
 }
 
 .card {
     width: 150px;
-    margin: 0 20px;
     text-align: center;
 }
 
@@ -102,7 +104,8 @@ h2 {
 .card-container {
     display: flex;
     padding: 0 40px 100px;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .quote-container {
