@@ -75,7 +75,8 @@ h1 {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 4px 20px;
+    font-weight: bold;
+    padding: 4px 24px;
     border: #3882F6;
     border-radius: 5px;
 }
@@ -120,6 +121,35 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     margin-top: 0.5em;
+}
+
+.action-container {
+    padding: 75px 100px;
+}
+
+.action-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.action-text {
+    padding: 40px 0;
+}
+
+.action-text h3, .action-text p{
+    margin: 0;
+}
+
+.action-button {
+    padding: 40px 0;
+}
+
+.white-border {
+    border: #E5E7EB solid 2px;
 }
 
 .footer-container {
